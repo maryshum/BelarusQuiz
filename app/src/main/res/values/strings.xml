@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BelarusQuiz</string>
+    <string name="avatar_description">A girl in traditional belarusian clothes</string>
+    <string name="intro_text">Hey there! \nPlaning a trip to Belarus? \nTake this quiz to discover how much you know about it! </string>
+    <string name="question1">What countries border Belarus?</string>
+    <string name="q1a1">Russia</string>
+    <string name="q1a2">Bulgaria</string>
+    <string name="q1a3">Poland</string>
+    <string name="q1a4">Latvia</string>
+    <string name="icon_question1_description">World icon with three dot tags</string>
+    <string name="icon_question2_description">Field with the trees</string>
+    <string name="icon_question3_description">Round icon with a beaver</string>
+    <string name="icon_question4_description">A bowl with veggies</string>
+    <string name="icon_question5_description">Castle icon</string>
+    <string name="icon_question6_description">Computer which screen reads "START GAME"</string>
+    <string name="icon_question7_description">A trophy on the navy background</string>
+    <string name="question2">What nickname did Belarus get for its forests, that cover 40% of the country`s territory?  </string>
+    <string name="question3">Belarus is a home for the largest animal in Europe. Can you name it?</string>
+    <string name="wolf">Wolf</string>
+    <string name="bison">European bison</string>
+    <string name="blackbear">Black bear</string>
+    <string name="question4">There are more than 300 dishes from this vegetable in Belarusian cuisine. Which one is it?</string>
+    <string name="squash">Squash</string>
+    <string name="cabbage">Cabbage</string>
+    <string name="potato">Potato</string>
+    <string name="question5">What Belarusian city is the oldest, established in 862 A.D.?</string>
+    <string name="vitebsk">Vitebsk</string>
+    <string name="polotsk">Polotsk</string>
+    <string name="minsk">Minsk</string>
+    <string name="question6">What popular game was created in Belarus?</string>
+    <string name="warcraft">World of Warcraft</string>
+    <string name="tanks">World of Tanks</string>
+    <string name="minecraft">Minecraft</string>
+    <string name="question7">What sport is the most popular in Belarus?</string>
+    <string name="hockey">Hockey</string>
+    <string name="football">Football</string>
+    <string name="golf">Golf</string>
+    <string name="button_text">START</string>
+    <string name="next">NEXT</string>
+    <string name="hint">Type the answer</string>
+    <string name="result">Submit</string>
+    <string name="restart_button">Restart</string>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+
+    <ImageView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/imageMarginTop"
+        android:contentDescription="@string/icon_question6_description"
+        android:src="@drawable/game" />
+    <!--Icon by Freepik from www.flaticon.com-->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/cardview_margin_side"
+        android:layout_marginRight="@dimen/cardview_margin_side"
+        android:layout_marginTop="@dimen/cardview2_top"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/cardview_cornerradius"
+        app:cardElevation="@dimen/cardview_elevation">
+
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/q2_text_margin_side"
+            android:layout_marginRight="@dimen/q2_text_margin_side"
+            android:layout_marginTop="@dimen/question_text_margin_top"
+            android:fontFamily="@font/delius_swash_caps"
+            android:text="@string/question6"
+            android:textAlignment="center"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="@dimen/question_text_size" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radiogroup1_margin_side"
+            android:layout_marginRight="@dimen/radiogroup1_margin_side"
+            android:layout_marginTop="@dimen/q5a1_margin_top"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q6a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/radiobutton_margin_bottom"
+                android:fontFamily="@font/delius_swash_caps"
+                android:onClick="addPointForQuestion6"
+                android:text="@string/warcraft"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="@dimen/textSize" />
+
+            <RadioButton
+                android:id="@+id/q6a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/radiobutton_margin_bottom"
+                android:fontFamily="@font/delius_swash_caps"
+                android:onClick="addPointForQuestion6"
+                android:text="@string/tanks"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="@dimen/textSize" />
+
+            <RadioButton
+                android:id="@+id/q6a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/last_radiobutton_margin_bottom"
+                android:fontFamily="@font/delius_swash_caps"
+                android:onClick="addPointForQuestion6"
+                android:text="@string/minecraft"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="@dimen/textSize" />
+
+        </RadioGroup>
+    </android.support.v7.widget.CardView>
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/nextButton_margin_bottom"
+        android:text="@string/next"
+        android:textSize="@dimen/ButtonTextSize"
+        android:fontFamily="@font/delius_swash_caps"
+        android:background="@android:color/white"
+        android:onClick="GoToQuestion7"/>
+
+</RelativeLayout>

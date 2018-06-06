@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/imageMarginTop"
+        android:contentDescription="@string/avatar_description"
+        android:src="@drawable/girl192" />
+<!--Icon by Freepick from www.flaticon.com-->
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginLeft="@dimen/introtext_margin_left"
+        android:layout_marginRight="@dimen/introtext_margin_right"
+        android:layout_marginStart="@dimen/introtext_margin_left"
+        android:layout_marginEnd="@dimen/introtext_margin_right"
+        android:layout_marginTop="@dimen/text_landscape_margin_top"
+        android:text="@string/intro_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="@dimen/textSize"
+        app:fontFamily="@font/delius_swash_caps" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:text="@string/button_text"
+        android:fontFamily="@font/delius_swash_caps"
+        android:background="@color/colorAccent"
+        android:onClick="startQuiz"/>
+       <!--Image by www.vecteezy.com-->
+</RelativeLayout>
+</ScrollView>

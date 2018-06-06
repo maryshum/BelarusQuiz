@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="imageMarginTop">30dp</dimen>
+    <dimen name="introtext_margin_top">40dp</dimen>
+    <dimen name="introtext_margin_left">40dp</dimen>
+    <dimen name="introtext_margin_right">40dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="button_margin_bottom">20dp</dimen>
+    <dimen name="cardview_top">60dp</dimen>
+    <dimen name="cardview_margin_side">20dp</dimen>
+    <dimen name="cardview_margin_bottom">85dp</dimen>
+    <dimen name="cardview_cornerradius">20dp</dimen>
+    <dimen name="cardview_elevation">10dp</dimen>
+    <dimen name="question_text_margin_top">10dp</dimen>
+    <dimen name="question_text_size">20sp</dimen>
+    <dimen name="answer1_margin_top">50dp</dimen>
+    <dimen name="answer_margin_left">20dp</dimen>
+    <dimen name="answer2_margin_top">90dp</dimen>
+    <dimen name="answer3_margin_top">130dp</dimen>
+    <dimen name="answer4_margin_top">165dp</dimen>
+    <dimen name="answer4_padding_bottom">10dp</dimen>
+    <dimen name="q2_text_margin_side">10dp</dimen>
+    <dimen name="edittext_margin_top">100dp</dimen>
+    <dimen name="edittext_margin_bottom">20dp</dimen>
+    <dimen name="cardview2_top">60dp</dimen>
+    <dimen name="q3a1_margin_top">90dp</dimen>
+    <dimen name="radiogroup1_margin_side">30dp</dimen>
+    <dimen name="radiobutton_margin_bottom">10dp</dimen>
+    <dimen name="last_radiobutton_margin_bottom">10dp</dimen>
+    <dimen name="q5a1_margin_top">80dp</dimen>
+    <dimen name="q4_margin_top">90dp</dimen>
+    <dimen name="nextButton_margin_bottom">30dp</dimen>
+    <dimen name="ButtonTextSize">18sp</dimen>
+    <dimen name="text_landscape_margin_top">40dp</dimen>
+    <dimen name="margin_left_submit">40dp</dimen>
+    <dimen name="margin_right_submit">40dp</dimen>
+    <dimen name="margin_left_restart">40dp</dimen>
+    <dimen name="margin_right_restart">40dp</dimen>
+</resources>
