@@ -46,7 +46,7 @@ public class QuestionSeven extends AppCompatActivity{
         }
     }
     public void showResult (View view){
-    if (userScore <= 8) {
+    if (userScore >= 6) {
         Context context = getApplicationContext();
         CharSequence textForToast1 = "Wow! Your score is "+userScore+ ". You know Belarus as if it was your home country!";
         int duration = Toast.LENGTH_LONG;
@@ -54,7 +54,7 @@ public class QuestionSeven extends AppCompatActivity{
         toast1.show();
 
     }
-    if (userScore <= 5 ){
+    else {
        Context context =getApplicationContext();
        CharSequence textForToast2 = "Your score is "+userScore+". Visit us again to learn more about Belarus!";
        int duration=Toast.LENGTH_LONG;
