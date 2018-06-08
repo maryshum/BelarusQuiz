@@ -18,28 +18,26 @@ public class QuestionOne extends AppCompatActivity {
         setTheme(R.style.AppTheme);
         setContentView(R.layout.first_page_slider);
     }
-
-    public void addPointsForQuestion1(View view) {
-        //Check what checkbox is checked
-        boolean rightAnswer = ((CheckBox) view).isChecked();
-        //Check which checkboxes are checked
-        switch (view.getId()) {
-            case R.id.q1a1:
-                if (rightAnswer)
-                    //Russia
-                    userScore = userScore + 1;
-                break;
-            case R.id.q1a2:
-                if (rightAnswer)
-                    //Bulgaria
-                    break;
-            case R.id.q1a3:
-                if (rightAnswer)
-                    //Poland
-                    userScore = userScore + 1;
-                break;
+ public void addPointsForQuestion1(View view) {
+        //find the first checkbox and check if it is checked
+        final CheckBox q1a1 = findViewById(R.id.q1a1);
+        boolean answerRussia = q1a1.isChecked();
+        //find the second checkbox and check if it is checked
+        final CheckBox q1a2 = findViewById(R.id.q1a2);
+        boolean answerBulgaria = q1a2.isChecked();
+        //find the third checkbox and check if it is checked
+        final CheckBox q1a3 = findViewById(R.id.q1a3);
+        boolean answerPoland = q1a3.isChecked();
+        //update score to 2 (1 for each country) if Russia and Poland are checked, and Bulgaria is not checked
+        if (answerRussia && !answerBulgaria && answerPoland) {
+            userScore = 2;
+        }else {
+            //otherwise set score to 0
+            userScore = 0;
         }
     }
+
+
     //**Below code is based on reference from http://www.vogella.com/tutorials/AndroidIntent/article.html
     //Lars Vogel (c) 2014, 2016 vogella GmbH
     //Version 0.3,
